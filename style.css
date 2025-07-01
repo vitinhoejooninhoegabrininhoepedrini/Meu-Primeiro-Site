@@ -4,3 +4,17 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 100px;
 }
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+section {
+    background-color: crimson;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+}
