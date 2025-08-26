@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    color:blueviolet;
+    color:rgb(254, 254, 254);
+    margin: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 100px;
 }
@@ -8,17 +9,18 @@ body {
 header {
     border-bottom: solid 2px white;
     padding: 20px;
-    font-size: 30px;
+    font-size: 32px;
     color: black;
 }
 
-section {
-    background-color: crimson;
+.chamada {
+    background-color: rgb(0, 0, 0);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
 justify-content: center;
 }
+
 .chamada-texto  {
     margin-right: 5%;
 }
@@ -33,7 +35,7 @@ p {
 
 .categoria-videos {
     display: flex;
-    overflow: auto;
+    overflow-x: auto;
     gap: 10px;
 }
 
@@ -50,5 +52,5 @@ p {
 
 .categoria-videos img:hover{
     opacity:1.0;
-    border:3px solid cyan;
+    border:3px solid rgb(201, 255, 255);
 }
